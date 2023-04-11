@@ -1,0 +1,17 @@
+.link-caption {
+  color: var(--dl-color-primary-mainred);
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px;
+}
+.link-icon {
+  fill: var(--dl-color-primary-mainred);
+  width: 24px;
+}
+
+@media(max-width: 991px) {
+  .link-caption {
+    display: none;
+  }
+}
