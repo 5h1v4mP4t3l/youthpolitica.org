@@ -101,7 +101,7 @@
   text-decoration: none;
 }
 .header-menu {
-  width: 695px;
+  width: 778px;
   height: 37px;
   display: flex;
   align-items: flex-start;
@@ -263,13 +263,14 @@
 .header-container2 {
   display: flex;
   align-items: center;
+  margin-right: 0px;
   flex-direction: row;
   justify-content: space-between;
 }
 .header-burger-menu {
   align-items: center;
   margin-left: 0px;
-  margin-right: var(--dl-space-space-unitandahalfunit);
+  margin-right: var(--dl-space-space-halfunit);
   flex-direction: row;
   justify-content: space-between;
 }
@@ -433,45 +434,8 @@
   font-weight: 600;
   text-decoration: none;
 }
-.header-dropdown3 {
-  cursor: pointer;
-  display: inline-block;
-  position: relative;
-  border-radius: 2px;
-}
-.header-dropdown-toggle4 {
-  fill: var(--dl-color-gray-800);
-  width: 100%;
-  display: inline-flex;
-  transition: 0.3s;
-  align-items: center;
-  padding-top: var(--dl-space-space-halfunit);
-  border-color: var(--dl-color-primary-theme3);
-  border-width: .5px;
-  padding-left: var(--dl-space-space-unit);
-  border-radius: 4px;
-  padding-right: var(--dl-space-space-unit);
-  padding-bottom: var(--dl-space-space-halfunit);
-}
-.header-dropdown-toggle4:hover {
-  fill: #fff;
-  color: #fff;
-  background-color: #595959;
-}
-.header-navlink06 {
-  color: var(--dl-color-primary-theme3);
-  width: 100%;
-  cursor: pointer;
-  display: flex;
-  font-size: 0.8rem;
-  font-style: normal;
-  text-align: center;
-  font-weight: 600;
-  text-decoration: none;
-}
 .header-container3 {
-  display: flex;
-  align-items: center;
+  display: none;
   flex-direction: row;
   justify-content: space-between;
 }
@@ -498,7 +462,7 @@
   flex-direction: row;
   justify-content: space-between;
 }
-.header-navlink07 {
+.header-navlink06 {
   color: var(--dl-color-secondary-700);
   font-weight: 600;
   text-decoration: none;
@@ -529,6 +493,14 @@
   margin-bottom: var(--dl-space-space-unit);
   flex-direction: column;
 }
+.header-navlink07 {
+  transition: 0.3s;
+  margin-bottom: var(--dl-space-space-halfunit);
+  text-decoration: none;
+}
+.header-navlink07:hover {
+  color: var(--dl-color-gray-500);
+}
 .header-navlink08 {
   transition: 0.3s;
   margin-bottom: var(--dl-space-space-halfunit);
@@ -539,17 +511,9 @@
 }
 .header-navlink09 {
   transition: 0.3s;
-  margin-bottom: var(--dl-space-space-halfunit);
   text-decoration: none;
 }
 .header-navlink09:hover {
-  color: var(--dl-color-gray-500);
-}
-.header-navlink10 {
-  transition: 0.3s;
-  text-decoration: none;
-}
-.header-navlink10:hover {
   color: var(--dl-color-gray-500);
 }
 .header-bot {

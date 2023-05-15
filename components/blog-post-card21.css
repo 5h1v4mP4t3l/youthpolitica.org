@@ -19,6 +19,7 @@
   border-radius: 0px;
 }
 .blog-post-card21-container {
+  width: 100%;
   display: flex;
   align-items: flex-start;
   padding-top: var(--dl-space-space-twounits);
@@ -76,14 +77,24 @@
   margin-left: var(--dl-space-space-halfunit);
 }
 .blog-post-card21-text5 {
-  color: var(--dl-color-gray-black);
+  color: var(--dl-color-gray-white);
   font-style: normal;
   font-weight: 500;
+  border-color: var(--dl-color-primary-maroonaccent);
+  border-width: 10px;
+  border-radius: var(--dl-radius-radius-radius40);
+  background-color: var(--dl-color-primary-maroonaccent);
 }
 
 
 
 
+
+
+.blog-post-card21-root-class-name6 {
+  width: 100%;
+  max-width: 100%;
+}
 
 
 @media(max-width: 991px) {
