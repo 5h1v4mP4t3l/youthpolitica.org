@@ -21,6 +21,7 @@
   --dl-color-scheme-white: #FFFFFF;
   --dl-size-size-halfunit: 0.5rem;
   --dl-size-size-maxwidth: 1400px;
+  --dl-space-space-unit10: 1rem;
   --dl-color-secondary-100: #d2d6daff;
   --dl-color-secondary-200: #8392abff;
   --dl-color-secondary-300: #808fbfff;
@@ -60,6 +61,7 @@
   --dl-space-space-halfunit4: 8px;
   --dl-space-space-halfunit5: 8px;
   --dl-space-space-halfunit6: 8px;
+  --dl-space-space-halfunit7: 8px;
   --dl-space-space-sixunits1: 96px;
   --dl-space-space-sixunits2: 96px;
   --dl-space-space-sixunits3: 96px;
