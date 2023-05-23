@@ -261,11 +261,10 @@
   text-decoration: none;
 }
 .header-container2 {
-  display: flex;
+  display: none;
   align-items: center;
   margin-right: 0px;
   flex-direction: row;
-  justify-content: space-between;
 }
 .header-burger-menu {
   align-items: center;
@@ -435,7 +434,7 @@
   text-decoration: none;
 }
 .header-container3 {
-  display: none;
+  display: flex;
   flex-direction: row;
   justify-content: space-between;
 }
