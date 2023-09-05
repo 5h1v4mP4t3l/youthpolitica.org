@@ -6,7 +6,7 @@
 .primary-maroon-button-button {
   color: var(--dl-color-gray-white);
   outline: none;
-  background:  linear-gradient( 310deg ,#7928ca,#ff0080);
+  background: linear-gradient( 310deg ,#7928ca,#ff0080);
   box-shadow: 0 4px 7px -1px rgb(0 0 0 / 11%), 0 2px 4px -1px rgb(0 0 0 / 7%);
   transition: all .15s ease-in;
   padding-top: var(--dl-space-space-triplequarterunit);
@@ -19,6 +19,22 @@
   background-image: linear-gradient(90deg, rgba(88, 4, 20, 0.9) 0.00%,rgba(88, 4, 20, 0.9) 100.00%);
 }
 .primary-maroon-button-root-class-name {
+  flex: 0 0 auto;
+  background-color: transparent;
+}
+.primary-maroon-button-root-class-name1 {
+  flex: 0 0 auto;
+  background-color: transparent;
+}
+.primary-maroon-button-root-class-name2 {
+  flex: 0 0 auto;
+  background-color: transparent;
+}
+.primary-maroon-button-root-class-name3 {
+  flex: 0 0 auto;
+  background-color: transparent;
+}
+.primary-maroon-button-root-class-name4 {
   flex: 0 0 auto;
   background-color: transparent;
 }
